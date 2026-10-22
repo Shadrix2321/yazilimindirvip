@@ -1,0 +1,103 @@
+{
+  "game": "Son Koridor",
+  "version": "1.4.0",
+  "verifiedAt": "2026-10-22T04:02:52.565898+00:00",
+  "distribution": "Static folder, root index.html, separate classic JavaScript, CSS and local asset pack.",
+  "tests": {
+    "passed": 57,
+    "failed": 0,
+    "afterFinalLocalBodyVisibilityChange": {
+      "relatedPassed": 11,
+      "failed": 0
+    },
+    "fileLaunchPackagingAndAssetBytes": "passed",
+    "actualBrowserDoubleClick": "not tested; browser control blocks file:// navigation"
+  },
+  "realWebRtc": {
+    "method": "Two Node PeerJS clients with Werift WebRTC implementation, public PeerJS signaling, same host/network; controlled authoritative positions for capture/collection/delivery fixtures. Not a browser test or cross-NAT test.",
+    "startedAt": "2026-10-22T03:48:14.952Z",
+    "fiveDigitCode": true,
+    "members": 2,
+    "playing": true,
+    "movingMonster": true,
+    "connectionType": "data",
+    "transportState": "connected",
+    "guestMovement": true,
+    "teamQuota": 10,
+    "personalCounts": [
+      5,
+      5
+    ],
+    "captureReplicated": true,
+    "stabStage": true,
+    "lifeAfterAnimation": true,
+    "checkoutStartsAtTen": true,
+    "deliveryPhase": "intermission",
+    "contributions": [
+      5,
+      5
+    ],
+    "ok": true,
+    "finishedAt": "2026-10-22T03:48:31.925Z"
+  },
+  "browser": {
+    "method": "In-app Chromium browser through normal HTTP preview, real UI interactions.",
+    "twoTabsCreatedAndJoinedByFiveDigitCode": true,
+    "nightStarted": true,
+    "personalListsDiffer": true,
+    "personalCounts": [
+      5,
+      5
+    ],
+    "teamTotal": 10,
+    "playerMovementObserved": true,
+    "runtimeErrorsObserved": 0,
+    "sceneQa": "Actual renderer with controlled fixtures: eight appearance support; three visible distinct characters and carts; grab/stab/throw and victim camera checked; capture camera clipping corrected.",
+    "performance": {
+      "resolution": "1280x720",
+      "quality": "medium",
+      "controlledSceneBefore": {
+        "fpsApprox": 30,
+        "drawCallsApprox": 220,
+        "trianglesApprox": 492000
+      },
+      "controlledSceneAfter": {
+        "fpsApprox": 48,
+        "drawCalls": 124,
+        "triangles": 305275
+      },
+      "twoGameTabsFpsObservedRange": [
+        34,
+        39
+      ],
+      "note": "Observed on this machine with other browser tabs; not a performance guarantee."
+    }
+  },
+  "network": {
+    "host": "Room owner browser",
+    "signaling": "PeerServer Cloud",
+    "turnConfigured": false,
+    "netlifyFunctionsRequired": false,
+    "sameSiteRoomScope": true,
+    "hostLeavingClosesRoom": true
+  },
+  "gameplay": {
+    "firstNightTeamTotal": "6 + 4 * (players - 1)",
+    "extraPerNight": 3,
+    "personalOwnership": true,
+    "checkoutSeconds": 10,
+    "captureMs": 4300,
+    "shelfFallsMaxPerNight": 1,
+    "weakVision": true,
+    "sprintDominatesHearing": true
+  },
+  "limits": [
+    "Cross-network residential/mobile NAT combinations not tested; no TURN relay configured.",
+    "The game uses the supplied GLB clip plus procedural motion, not an exact copy of the Roblox animation.",
+    "Local file bootstrap and packed asset bytes tested; actual double-click browser session not tested.",
+    "Client game code and assets are downloaded by the browser and cannot be kept secret."
+  ],
+  "files": {
+    "game-2ed016e2e6.js": "2ed016e2e66e255110f9b1c481345377837f325527e53d8f0e52344fb36c0c66"
+  }
+}
